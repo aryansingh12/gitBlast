@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 10;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+  }
+  
+  @viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+  @-ms-viewport {
+    width: device-width ;
+  }
+  .content {
+      width: 80%;
+      padding: 10vh 7.5% 5rem 6%;
+      float: left;
+  }
+  
+  .card {
+    border-radius: 8px;
+    box-shadow: 4px 5px 12px 2px var(--box-shadow-color);
+    --box-shadow-color: #808080;
+    padding: 24px;
+    margin-bottom: 34px;
+    opacity: 0.88;
+  }
+  
+  .card:hover {
+    /* box-shadow: 2px 5px 7px 6px rgba(13, 55, 13, 0.12); */
+    /* box-shadow: 0 15px 11px rgba(13,55,13,.2); */
+    --box-shadow-color: #228B22;
+  }
+  
+  .top-bar {
+    min-height: 88px;
+    z-index: 2;
+    position: relative;
+  }
+  .strong {
+    font-weight: 700;
+  }
+  .social-links__wrapper {
+    /* background-color: aqua; */
+    color: #2f2c36;
+  }
+  .bg-pattern {
+    background-position: 100% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .sub-title {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      color: #2f2c36;
+      font-size: 1.6rem;
+      font-weight: 400;
+      text-align: center;
+  }
+  h1 {
+    font-size: 1.75rem;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  h2 {
+      color: #228B22;
+      font-size: 1.2rem;
+      line-height: 1.75;
+      font-weight: 500;
+  }
+  p {
+    font-size: 20px;
+    line-height: 38px;
+  }
+  .bg-pattern {
+      /* background-image: url('Images/bg1.jpg'); */
+      /* background-color: bisque; */
+      background-position: 100% 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  .date{
+      margin-right: 1rem;
+      color: #a29ab4;
+      font-weight: 500;
+      margin-bottom: -13px;
+  }
+  .heading{
+      margin-bottom: -12px;
+  }
+  .sub-heading{
+    margin-bottom: -15px;
+    margin-top: -15px;
+  }
+  .sub-title{
+    margin-bottom: 10px;
+  }
+  .avatar {
+      position: fixed;
+      right: -30px;
+      z-index: -1;
+      width: 40%;
+      height: 100vh;
+      float: right;
+      /* background-image: url('Images/a.jpg'); */
+      background-position: 50% 50%;
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+  .mid-text{
+    color: #228B22;
+    font-size: 19px;
+    font-family: 'Merriweather', serif;
+  
+  }
+  strong{
+    color: #000
+  }
+  
+  .notepaper {
+    position: relative;
+    margin: 30px auto;
+    padding: 29px 10px 10px 35px;
+    width: 100%;
+    line-height: 30px;
+    text-shadow: 0 1px 1px white;
+    background-color: #79d8f5;
+    border: 1px solid #79d8f5;
+    border-color: #79d8f5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 5px #d8e071, 0 0 1px rgba(0, 0, 0, 0.1), 0 2px rgba(0, 0, 0, 0.02);
+    box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), inset 0 0 5px #d8e071, 0 0 1px rgba(0, 0, 0, 0.1), 0 2px rgba(0, 0, 0, 0.02);
+  }
+  
+  .notepaper:before, .notepaper:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .notepaper:before {
+    left: 18px;
+    width: 2px;
+    border: solid #79d8f5;
+    border-color: #79d8f5;
+    border-width: 0 1px;
+  }
+  
+  .notepaper:after {
+    z-index: -1;
+    left: 0;
+    right: 0;
+    background: #79d8f5;
+    border: 1px solid rgba(170, 157, 134, 0.7);
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+  }
+  
+  .quote {
+    font-family: Georgia, serif;
+    font-size: 12px;
+  }
+  
+  .curly-quotes:before, .curly-quotes:after {
+    display: inline-block;
+    vertical-align: top;
+    height: 30px;
+    line-height: 48px;
+    font-size: 50px;
+    opacity: .2;
+  }
+  
+  .curly-quotes:before {
+    content: '\201C';
+    margin-right: 4px;
+    margin-left: -8px;
+  }
+  
+  .curly-quotes:after {
+    content: '\201D';
+    margin-left: 4px;
+    margin-right: -8px;
+  }
+  
+  .quote-by {
+    display: block;
+    padding-right: 10px;
+    text-align: right;
+    font-size: 13px;
+    font-style: italic;
+    color: #84775c;
+  }
+  
+  .lt-ie8 .notepaper {
+    padding: 15px 15px;
+  }
+  
+  .myintro{
+    color: #707070;
+    font-family: 'Merriweather', serif;
+  }
+  
+  
+  @media screen and (max-width: 1000px) {
+    .content{
+      width: 100%;
+      padding: 10vh 7.5% 5rem 6%;
+      float: left;
+    }
+  }
